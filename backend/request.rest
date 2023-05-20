@@ -1,0 +1,95 @@
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "andri febriansah",
+    "email": "andri@gmail.com",
+    "password": "123",
+    "confirmPassword": "123",
+    "role": "user"
+}
+
+
+###
+// get All Users
+GET http://localhost:5000/users
+
+###
+// get All Users by ID
+GET http://localhost:5000/users/cb7cdac6-9f2e-4a2f-b9fd-6e68185f65b1
+
+
+###
+//update data
+PATCH  http://localhost:5000/users/cb7cdac6-9f2e-4a2f-b9fd-6e68185f65b1
+Content-Type: application/json
+
+{
+    "name": "nano edit",
+    "email": "nanonano2@gmail.com",
+    "password": "123",
+    "confirmPassword": "123",
+    "role": "user"
+}
+
+
+###
+//delete data
+DELETE   http://localhost:5000/users/3a251fe5-5712-4822-b4a8-c4967770c69a
+
+
+###
+# login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "nanonano@gmail.com",
+    "password": "123"
+}
+
+###
+// get All Users
+GET http://localhost:5000/me
+
+
+
+###
+// get All Users
+DELETE  http://localhost:5000/logout
+
+
+###
+// get All Product
+GET http://localhost:5000/Products
+
+
+###
+//post data product
+POST http://localhost:5000/Products
+Content-Type: application/json
+
+{
+    "name": "Produc 2",
+    "price": 30
+}
+
+###
+// get All Product by id
+GET http://localhost:5000/Products/7a8b4c87-5a6c-47cb-81f9-7c343311d007
+
+
+
+###
+//post data product
+PATCH  http://localhost:5000/Products/7a8b4c87-5a6c-47cb-81f9-7c343311d007
+Content-Type: application/json
+
+{
+    "name": "Produc edit",
+    "price": 30
+}
+
+###
+// DELETE Product by id
+DELETE http://localhost:5000/Products/7a8b4c87-5a6c-47cb-81f9-7c343311d007

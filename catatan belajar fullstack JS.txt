@@ -1,0 +1,66 @@
+
+
+
+
+belajar fullstack JS
+
+LOGIN MULTI ROLE DENGAN NODE JS EXPRESS, MYSQL DAN REACT JS
+
+chanel youtube : codermedia ...
+
+https://www.youtube.com/watch?v=OJU0L9D-Zdo&t=8201s
+
+
+
+
+langkah langkah
+
+1. buat folder backend dan frondend
+2. masuk ke terminal atau cmd pada folder backend
+
+	- perintah perintah untuk membuat projek
+		=> npm init -y
+		=> 
+
+	- install package melalui teminal
+		=> npm i express mysql2 sequelize argon2 cors dotenv
+
+		keterangan 
+		 express    = framework js
+		 mysql2   	= di gunakan untuk konek ke mysql (sql client)
+		 sequelize  = 
+		 argon2 	= untuk hashing password
+		 cors 		= agar api dapet di akses dari luar domain
+		 dotenv 	= untuk membuat environment variable
+		 express-session = 
+
+
+	- jika sukses akan keluar notif 
+	
+		11 packages are looking for funding
+		  run `npm fund` for details
+
+		found 0 vulnerabilities
+		npm notice 
+		npm notice New major version of npm available! 8.11.0 -> 9.6.5
+		npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.5
+		npm notice Run npm install -g npm@9.6.5 to update!
+		npm notice
+
+
+	- cek package json package yg terinstal akan muncul di sana
+	-  
+
+
+	- install nodemon untuk menjalan kan aplikasi ...
+	- cek nodemon -v untuk mengecek fungsi versi nodemon
+	- menjalankan aplikasi 
+		- nodemon index
+
+
+	- 
+
+
+
+
+
