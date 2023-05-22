@@ -44,7 +44,7 @@ POST http://localhost:5000/login
 Content-Type: application/json
 
 {
-    "email": "nanonano@gmail.com",
+    "email": "a@gmail.com",
     "password": "123"
 }
 
@@ -92,4 +92,4 @@ Content-Type: application/json
 
 ###
 // DELETE Product by id
-DELETE http://localhost:5000/Products/7a8b4c87-5a6c-47cb-81f9-7c343311d007
+DELETE http://localhost:5000/Products/9bde23c0-a6ef-4a93-8b36-66efe4ec3d3b

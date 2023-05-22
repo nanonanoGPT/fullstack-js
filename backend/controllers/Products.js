@@ -1,6 +1,7 @@
 // import { response } from "express";
 import Products from "../models/ProductModels.js";
 import Users from "../models/UserModel.js";
+import { Op } from "sequelize";
 
 
 export const getProduct = async(req, res) => {
@@ -82,7 +83,7 @@ export const createProduct = async(req, res) => {
             price: price,
             userId: req.userId
         });
-        res.status(201).json({msg: "Product Create Succesfully"});
+        res.status(200).json({msg: "Product Create Succesfully"});
     } catch (error) {
         res.status(201).json({msg: error.message});
     }
